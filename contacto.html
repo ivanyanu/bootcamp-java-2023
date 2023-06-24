@@ -48,6 +48,73 @@
             </table>
         </section>
     </main>
+    <!-- Formularios -->
+    <fieldset>
+        <legend>Formulario</legend>
+        <form action="" method="get">
+            <!-- Inputs, varios tipos -->
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text"
+                    name="nombre"
+                    id="nombre">
+            </div>
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad"
+                    step="1"
+                    min="0"
+                    max="100"
+                    id="edad">
+                <br>
+            </div>
+            <div>
+                <label>Obra social:</label>
+                <select name="obra_social" id="obra_social">
+                    <option value="pami">PAMI</option>
+                    <option value="osde">OSDE</option>
+                    <option value="swiss_medical">Swiss medical</option>
+                </select>
+                <br>
+            </div>
+            <div>
+                <label>Es cliente:</label>
+                <label>Si</label><input
+                    type="radio" 
+                    name="es_cliente">
+                <label>No</label><input
+                    type="radio"
+                    name="es_cliente">
+                <br>
+            </div>
+            <div>
+                <label>Intereses:</label>
+                <input
+                    type="checkbox" 
+                    name="intereses_musica"
+                    value="mus">
+                <label>Musica</label>
+                <input
+                    type="checkbox"
+                    name="intereses_deportes">
+                <label>Peliculas</label>
+                <br>
+            </div>
+            <div>
+                <label>Fecha Nac:</label>
+                <input type="date">
+                <br>
+            </div>
+            <div>
+                <label>Horario:</label>
+                <input type="time">
+                <br>
+            </div>
+            <div>
+                <button>Enviar</button>
+            </div>
+        </form>
+    </fieldset>
     <aside>
 
     </aside>
