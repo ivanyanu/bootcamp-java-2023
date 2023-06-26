@@ -3,11 +3,39 @@
     <!-- No se ve -->
     <head>
         <title>Bootcamp Java - EducacionIT</title>
+        <!-- Incluir CSS -->
+        <!-- Primer forma -->
+        <style>
+            /* prioridad de estilos
+                1- Estilos en linea
+                2- Estilos por id
+                3- Estilos por clase
+                4- Estilos por etiqueta
+            */
+            
+            /* selector por etiqueta */
+            body {
+                background-color: green;
+            }
+            p {
+                color: white;
+            }
+            /* selector por id */
+            #mi-parrafo {
+                color: red;
+            }
+            /* selector por clase */
+            .mi-parrafo {
+                color: blue;
+            }
+
+            
+        </style>
     </head>
     <!-- Se ve -->
     <body>
-        <h1>Clase 1- HTML</h1>
-        <h2>Clase 1- HTML</h2>
+        <h1 id="h1">Clase 1- HTML</h1>
+        <h2 class="mi-parrafo">Clase 1- HTML</h2>
         <h3>Clase 1- HTML</h3>
         <h4>Clase 1- HTML</h4>
         <h5>Clase 1- HTML</h5>
@@ -15,6 +43,9 @@
         <!-- Parrafo -->
         <!-- Etiqueta de bloque -->
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione harum corporis architecto quo? Et nesciunt sunt natus omnis. Reiciendis, perferendis consequatur pariatur animi at vel non sequi? Nulla, officiis quos.</p>
+        <p id="mi-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptas alias commodi reprehenderit. Tempora odit beatae, animi unde, nesciunt magnam tenetur amet commodi inventore expedita nulla ipsam. Ex, corrupti accusamus?</p>
+        <p class="mi-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptas alias commodi reprehenderit. Tempora odit beatae, animi unde, nesciunt magnam tenetur amet commodi inventore expedita nulla ipsam. Ex, corrupti accusamus?</p>
+        <p id="mi-parrafo3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptas alias commodi reprehenderit. Tempora odit beatae, animi unde, nesciunt magnam tenetur amet commodi inventore expedita nulla ipsam. Ex, corrupti accusamus?</p>
         <!-- link -->
         <!-- Etiqueta de linea -->
         <!-- URL absoluta -->
